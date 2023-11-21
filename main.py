@@ -1,5 +1,3 @@
-pip3 install fastapi
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 from app.model.model import predict_pipeline
